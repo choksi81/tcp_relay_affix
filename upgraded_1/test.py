@@ -7,13 +7,6 @@ affix_stack = dy_import_module("affix_stack.r2py")
 
 logging_affix_stack = affix_stack.AffixStack("(LoggingAffix)")
 
-#logging_affix_stack = affix_stack.AffixStack('(CoordinationAffix)(MakeMeHearAffix)(NamingAndResolverAffix,' + 
-   #   "Hello" +')')
-getmyip = logging_affix_stack.getmyip
-
-log("Test script calling getmyip() now!\n")
-my_ip = getmyip()
-log("Test script called getmyip() and got", my_ip, "in return.\n")
 
 #answers=advertise.advertise_lookup("546")
 try: 
